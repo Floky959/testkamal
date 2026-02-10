@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="fr" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coach KAMAL - Coaching Fitness</title>
+    
+    <!-- Bootstrap RTL CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <!-- Cairo Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css?v=2">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <span class="brand-text">Coach Kamal</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#benefits">Avantages</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#programs">Programmes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">À propos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#packages">Forfaits</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+                <a href="https://wa.me/+212663295556" class="btn btn-primary btn-whatsapp ms-3">
+                    <i class="fab fa-whatsapp"></i> Réservez maintenant
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-bg-animation"></div>
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="hero-content">
+                        <span class="hero-tag">🏆 Coach Certifié</span>
+                        <h1 class="hero-title">
+                            Transformez votre corps en <span class="gradient-text">œuvre d'art</span>
+                        </h1>
+                        <p class="hero-subtitle">
+                            Avec Coach kamal, commencez votre voyage vers la forme physique idéale grâce à des programmes d'entraînement professionnels et une nutrition équilibrée
+                        </p>
+                        <div class="hero-stats">
+                            <div class="stat-item">
+                                <h3 class="stat-number">+90</h3>
+                                <p class="stat-label">Clients satisfaits</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3 class="stat-number">+15</h3>
+                                <p class="stat-label">Ans d'expérience</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3 class="stat-number">100%</h3>
+                                <p class="stat-label">Résultats garantis</p>
+                            </div>
+                        </div>
+                        <div class="hero-buttons">
+                            <a href="#packages" class="btn btn-primary btn-lg btn-glow">
+                                <span>Commencez maintenant</span>
+                                <i class="fas fa-arrow-left"></i>
+                            </a>
+                            <a href="#about" class="btn btn-outline-light btn-lg">
+                                <span>En savoir plus</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="hero-image-wrapper">
+                        <div class="hero-image-bg"></div>
+                        <img src="images/kamaljt.png?v=2" alt="Coach KAMAL" class="hero-image">
+                        <div class="floating-card floating-card-1">
+                            <i class="fas fa-dumbbell"></i>
+                            <span>Entraînement personnel</span>
+                        </div>
+                        <div class="floating-card floating-card-2">
+                            <i class="fas fa-apple-alt"></i>
+                            <span>Nutrition saine</span>
+                        </div>
+                        <div class="floating-card floating-card-3">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Suivi quotidien</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Faites défiler vers le bas</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits-section py-5">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="section-tag">Pourquoi nous choisir</span>
+                <h2 class="section-title">Avantages de s'entraîner avec nous</h2>
+                <p class="section-subtitle">Nous vous offrons une expérience d'entraînement complète avec les plus hauts standards de qualité</p>
+            </div>
+            <div class="row g-4 mt-4">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <h3 class="benefit-title">Entraînement personnel professionnel</h3>
+                        <p class="benefit-text">Programmes d'entraînement personnalisés adaptés à votre niveau et objectifs avec suivi détaillé de chaque exercice</p>
+                        <div class="benefit-number">01</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <h3 class="benefit-title">Plan nutritionnel complet</h3>
+                        <p class="benefit-text">Régime alimentaire sain et équilibré pour atteindre vos objectifs plus rapidement et efficacement</p>
+                        <div class="benefit-number">02</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3 class="benefit-title">Suivi quotidien en ligne</h3>
+                        <p class="benefit-text">Communication continue et support 24/7 pour assurer votre engagement et les meilleurs résultats</p>
+                        <div class="benefit-number">03</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <h3 class="benefit-title">Vidéos éducatives</h3>
+                        <p class="benefit-text">Explications détaillées en vidéo pour chaque exercice afin d'assurer une exécution correcte et éviter les blessures</p>
+                        <div class="benefit-number">04</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3 class="benefit-title">Évaluation régulière</h3>
+                        <p class="benefit-text">Mesure continue des progrès et ajustement du programme selon les résultats pour garantir l'atteinte des objectifs</p>
+                        <div class="benefit-number">05</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <h3 class="benefit-title">Résultats garantis</h3>
+                        <p class="benefit-text">Avec engagement et suivi, nous garantissons l'atteinte de vos objectifs dans les délais impartis</p>
+                        <div class="benefit-number">06</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="video-content">
+                        <span class="section-tag">Voir les résultats</span>
+                        <h2 class="section-title">Votre transformation commence ici</h2>
+                        <p class="section-text">
+                            Découvrez comment nous avons aidé des centaines de clients à atteindre leurs objectifs et transformer complètement leur corps. 
+                            Le succès commence par une seule étape, et vous êtes à une étape de réaliser votre rêve.
+                        </p>
+                        <ul class="video-features">
+                            <li><i class="fas fa-check"></i> Résultats réels de vrais clients</li>
+                            <li><i class="fas fa-check"></i> Programmes scientifiquement prouvés</li>
+                            <li><i class="fas fa-check"></i> Suivi professionnel et continu</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="video-wrapper">
+                        <img src="images/test(1).png?v=2" alt="Miniature vidéo" class="video-thumbnail">
+                        <a href="https://www.instagram.com/reel/DR-RcaiDnrq/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" class="video-play-btn">
+                            <i class="fas fa-play"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="programs-section py-5">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="section-tag">Nos programmes</span>
+                <h2 class="section-title">Programmes d'entraînement</h2>
+                <p class="section-subtitle">Choisissez le programme qui vous convient et commencez votre transformation</p>
+            </div>
+            <div class="row g-4 mt-4">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="program-card program-training">
+                        <div class="program-image">
+                            <img src="images/Group-40.png?v=2" alt="Programme d'entraînement">
+                            <div class="program-overlay">
+                                <span class="program-tag">Le plus populaire</span>
+                            </div>
+                        </div>
+                        <div class="program-content">
+                            <div class="program-icon">
+                                <i class="fas fa-dumbbell"></i>
+                            </div>
+                            <h3 class="program-title">Programme d'entraînement</h3>
+                            <p class="program-description">
+                                Programme d'entraînement complet spécialement conçu pour vous, incluant des exercices de force, cardio et flexibilité avec des vidéos explicatives et un suivi quotidien pour assurer une exécution correcte
+                            </p>
+                            <ul class="program-features">
+                                <li><i class="fas fa-check-circle"></i> Programme d'entraînement hebdomadaire personnalisé</li>
+                                <li><i class="fas fa-check-circle"></i> Vidéos explicatives pour chaque exercice</li>
+                                <li><i class="fas fa-check-circle"></i> Suivi quotidien des performances</li>
+                                <li><i class="fas fa-check-circle"></i> Mise à jour du programme toutes les deux semaines</li>
+                            </ul>
+                            <a href="#packages" class="btn btn-program">
+                                <span>Choisissez votre forfait</span>
+                                <i class="fas fa-arrow-left"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="program-card program-nutrition">
+                        <div class="program-image">
+                            <img src="images/Group-40-(1).png?v=2" alt="Programme nutritionnel">
+                            <div class="program-overlay">
+                                <span class="program-tag">Premium</span>
+                            </div>
+                        </div>
+                        <div class="program-content">
+                            <div class="program-icon">
+                                <i class="fas fa-apple-alt"></i>
+                            </div>
+                            <h3 class="program-title">Programme nutritionnel</h3>
+                            <p class="program-description">
+                                Régime alimentaire sain et équilibré adapté à votre objectif (prise de masse, séchage ou perte de poids), avec des repas variés et de nombreuses alternatives adaptées à votre style de vie
+                            </p>
+                            <ul class="program-features">
+                                <li><i class="fas fa-check-circle"></i> Régime alimentaire avec calcul des calories</li>
+                                <li><i class="fas fa-check-circle"></i> Repas variés avec nombreuses alternatives</li>
+                                <li><i class="fas fa-check-circle"></i> Suivi quotidien de l'engagement</li>
+                                <li><i class="fas fa-check-circle"></i> Ajustement du régime selon les résultats</li>
+                            </ul>
+                            <a href="#packages" class="btn btn-program">
+                                <span>Choisissez votre forfait</span>
+                                <i class="fas fa-arrow-left"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Start Section -->
+    <section class="journey-section py-5">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="section-tag">Commencez maintenant</span>
+                <h2 class="section-title">Comment commencer avec le coach ?</h2>
+            </div>
+            <div class="row g-3 mt-3">
+                <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="journey-step">
+                        <div class="step-number">1</div>
+                        <div class="step-icon"><i class="fas fa-user-plus"></i></div>
+                        <h4 class="step-title">Inscrivez-vous</h4>
+                        <p class="step-text">Via le site ou WhatsApp</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="journey-step">
+                        <div class="step-number">2</div>
+                        <div class="step-icon"><i class="fas fa-clipboard-check"></i></div>
+                        <h4 class="step-title">Évaluations</h4>
+                        <p class="step-text">Nous déterminons les programmes adaptés</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="journey-step">
+                        <div class="step-number">3</div>
+                        <div class="step-icon"><i class="fas fa-file-alt"></i></div>
+                        <h4 class="step-title">Recevez les programmes</h4>
+                        <p class="step-text">Programmes d'entraînement et nutrition</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="journey-step">
+                        <div class="step-number">4</div>
+                        <div class="step-icon"><i class="fas fa-comments"></i></div>
+                        <h4 class="step-title">Suivi</h4>
+                        <p class="step-text">Support continu sur WhatsApp</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="about-image-wrapper">
+                        <div class="about-image-bg"></div>
+                        <img src="images/ronnie1.jpg" alt="Coach Kamal" class="about-image">
+                        <div class="about-badge">
+                            <div class="badge-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <div class="badge-content">
+                                <span class="badge-title">+8 ans</span>
+                                <span class="badge-subtitle">d'expérience en coaching</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="about-content">
+                        <span class="section-tag">À propos</span>
+                        <h2 class="section-title">Coach KAMAL</h2>
+                        <h3 class="about-subtitle">Coach sportif certifié</h3>
+                        <p class="about-text">
+                            Avec plus de 8 ans d'expérience dans le domaine du coaching et de la forme physique, j'ai aidé des centaines 
+                            de clients à atteindre leurs objectifs et transformer complètement leur corps.
+                        </p>
+                        <p class="about-text">
+                            Je crois que chacun mérite de se sentir confiant dans son corps, c'est pourquoi je propose des programmes d'entraînement personnalisés 
+                            et des plans nutritionnels complets adaptés à votre niveau et à vos objectifs spécifiques.
+                        </p>
+                        <div class="about-achievements">
+                            <div class="achievement-item">
+                                <div class="achievement-icon">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                                <div class="achievement-content">
+                                    <h4>+90 clients</h4>
+                                    <p>ont atteint leurs objectifs avec nous</p>
+                                </div>
+                            </div>
+                            <div class="achievement-item">
+                                <div class="achievement-icon">
+                                    <i class="fas fa-award"></i>
+                                </div>
+                                <div class="achievement-content">
+                                    <h4>Certifications</h4>
+                                    <p>en entraînement et nutrition</p>
+                                </div>
+                            </div>
+                            <div class="achievement-item">
+                                <div class="achievement-icon">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="achievement-content">
+                                    <h4>Note 5 étoiles</h4>
+                                    <p>de tous nos clients</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="https://wa.me/+212663295556" class="btn btn-primary btn-lg">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>Contactez-moi maintenant</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section id="packages" class="packages-section py-5">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="section-tag">Forfaits</span>
+                <h2 class="section-title">Choisissez le forfait qui vous convient</h2>
+                <p class="section-subtitle">Tous les forfaits incluent un suivi quotidien et des programmes personnalisés</p>
+            </div>
+            <div class="row g-4 mt-4 justify-content-center">
+                <!-- Iron Package -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="package-card package-iron">
+                        <div class="package-header">
+                            <div class="package-icon">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                            <h3 class="package-name">Forfait Fer</h3>
+                            <p class="package-subtitle">Pour débutants</p>
+                        </div>
+                        <div class="package-price">
+                            <span class="currency">DH</span>
+                            <span class="amount">400</span>
+                            <span class="period">/mois</span>
+                        </div>
+                        <ul class="package-features">
+                            <li><i class="fas fa-check"></i> Programme d'entraînement</li>
+                            <li><i class="fas fa-check"></i> Vidéos explicatives</li>
+                            <li><i class="fas fa-check"></i> Suivi hebdomadaire</li>
+                        </ul>
+                        <a href="https://wa.me/+212663295556?text=Bonjour, je souhaite souscrire au Forfait Fer" class="btn btn-package">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>Souscrire maintenant</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Silver Package -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="package-card package-silver">
+                        <div class="package-header">
+                            <div class="package-icon">
+                                <i class="fas fa-gem"></i>
+                            </div>
+                            <h3 class="package-name">Forfait Argent</h3>
+                            <p class="package-subtitle">Essentiel</p>
+                        </div>
+                        <div class="package-price">
+                            <span class="currency">DH</span>
+                            <span class="amount">800</span>
+                            <span class="period">/mois</span>
+                        </div>
+                        <ul class="package-features">
+                            <li><i class="fas fa-check"></i> Programme d'entraînement complet</li>
+                            <li><i class="fas fa-check"></i> Programme nutritionnel complet</li>
+                            <li><i class="fas fa-check"></i> Vidéos explicatives</li>
+                            <li><i class="fas fa-check"></i> Suivi hebdomadaire</li>
+                            <li><i class="fas fa-times"></i> Suivi quotidien</li>
+                        </ul>
+                        <a href="https://wa.me/+212663295556?text=Bonjour, je souhaite souscrire au Forfait Argent" class="btn btn-package">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>Souscrire maintenant</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Gold Package (Featured) -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="package-card package-gold featured">
+                        <div class="package-badge">Le plus demandé</div>
+                        <div class="package-header">
+                            <div class="package-icon">
+                                <i class="fas fa-crown"></i>
+                            </div>
+                            <h3 class="package-name">Forfait Or</h3>
+                            <p class="package-subtitle">Meilleure valeur</p>
+                        </div>
+                        <div class="package-price">
+                            <span class="currency">dh</span>
+                            <span class="amount">1800</span>
+                            <span class="period">/mois</span>
+                        </div>
+                        <ul class="package-features">
+                            <li><i class="fas fa-check"></i> Programme d'entraînement pro</li>
+                            <li><i class="fas fa-check"></i> Programme nutritionnel détaillé</li>
+                            <li><i class="fas fa-check"></i> Livre de recettes saines</li>
+                            <li><i class="fas fa-check"></i> Vidéos explicatives</li>
+                            <li><i class="fas fa-check"></i> Suivi quotidien complet</li>
+                            <li><i class="fas fa-check"></i> Évaluation hebdomadaire</li>
+                        </ul>
+                        <a href="https://wa.me/+212663295556?text=Bonjour, je souhaite souscrire au Forfait Or" class="btn btn-package">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>Souscrire maintenant</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Diamond Package -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="package-card package-diamond">
+                        <div class="package-header">
+                            <div class="package-icon">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h3 class="package-name">Forfait Diamant</h3>
+                            <p class="package-subtitle">VIP</p>
+                        </div>
+                        <div class="package-price">
+                            <span class="currency">DH</span>
+                            <span class="amount">2500</span>
+                            <span class="period">/mois</span>
+                        </div>
+                        <ul class="package-features">
+                            <li><i class="fas fa-check"></i> Tous les avantages du forfait Or</li>
+                            <li><i class="fas fa-check"></i> Suivi continu 24/7</li>
+                            <li><i class="fas fa-check"></i> Consultations illimitées</li>
+                            <li><i class="fas fa-check"></i> Ajustement immédiat des programmes</li>
+                            <li><i class="fas fa-check"></i> Priorité dans les réponses</li>
+                        </ul>
+                        <a href="https://wa.me/+212663295556?text=Bonjour, je souhaite souscrire au Forfait Diamant" class="btn btn-package">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>Souscrire maintenant</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section py-5">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="section-tag">Success stories</span>
+                <h2 class="section-title">Transformations réelles</h2>
+                <p class="section-subtitle">Découvrez les résultats réels de nos clients</p>
+            </div>
+            <div class="row justify-content-center mt-5">
+                <div class="col-lg-10">
+                    <div class="testimonial-card" data-aos="zoom-in">
+                        <div class="testimonial-header">
+                            <div class="testimonial-avatar">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                            <div class="testimonial-info">
+                                <h4 class="testimonial-name">M. Amir</h4>
+                                <div class="testimonial-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-2 mt-3">
+                            <div class="col-6">
+                                <div class="transformation-image">
+                                    <div class="image-badge before-badge">Avant</div>
+                                    <img src="images/Testimonials_Before.jpeg?v=2" alt="Avant l'entraînement - M. Amir" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="transformation-image">
+                                    <div class="image-badge after-badge">Après</div>
+                                    <img src="images/Testimonials_After.jpeg?v=2" alt="Après l'entraînement - M. Amir" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-quote mt-4">
+                            <i class="fas fa-quote-right"></i>
+                            <p>Expérience fantastique avec Coach KAMAL ! Le programme d'entraînement et le régime alimentaire étaient parfaitement adaptés et le suivi continu m'a aidé à atteindre mes objectifs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section py-5">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="section-tag">Questions fréquentes</span>
+                <h2 class="section-title">Questions que tout le monde pose</h2>
+                <p class="section-subtitle">Réponses claires aux questions les plus courantes</p>
+            </div>
+            <div class="row justify-content-center mt-5">
+                <div class="col-lg-8">
+                    <div class="accordion" id="faqAccordion" data-aos="fade-up">
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    <span class="accordion-number">01</span>
+                                    Les programmes sont-ils adaptés aux débutants ?
+                                </button>
+                            </h3>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Oui, absolument ! Nous concevons les programmes d'entraînement en fonction de votre niveau actuel, 
+                                    que vous soyez débutant ou avancé. Chaque programme est personnalisé spécialement pour vous en tenant compte de vos capacités et objectifs.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    <span class="accordion-number">02</span>
+                                    Combien de temps pour voir les résultats ?
+                                </button>
+                            </h3>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Avec un engagement complet au programme d'entraînement et à la nutrition, vous commencerez à remarquer une amélioration dans 
+                                    2-3 semaines. Les résultats significatifs apparaissent généralement clairement après 2-3 mois d'engagement continu.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    <span class="accordion-number">03</span>
+                                    Ai-je besoin d'équipement sportif à la maison ?
+                                </button>
+                            </h3>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Cela dépend de votre choix. Nous proposons des programmes pour la salle de sport et des programmes à domicile. Si vous préférez vous entraîner 
+                                    à la maison, nous concevrons un programme avec des outils simples ou sans équipement selon ce qui est disponible chez vous.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                    <span class="accordion-number">04</span>
+                                    Comment se passe le suivi ?
+                                </button>
+                            </h3>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Le suivi se fait entièrement via WhatsApp. Vous recevrez votre programme d'entraînement et de nutrition, et nous vous suivrons 
+                                    quotidiennement ou hebdomadairement selon votre forfait. Vous pouvez nous contacter à tout moment pour des questions ou des conseils.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                                    <span class="accordion-number">05</span>
+                                    Que faire si je ne peux pas suivre certains repas ?
+                                </button>
+                            </h3>
+                            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Ne vous inquiétez pas ! Nous vous proposons de nombreuses alternatives pour chaque repat adaptées à votre style de vie et à vos circonstances. Notre système nutritionnel 
+                                    est flexible et peut être facilement ajusté pour s'adapter à votre emploi du temps quotidien et à vos préférences alimentaires.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">
+                                    <span class="accordion-number">06</span>
+                                    Puis-je changer de forfait ultérieurement ?
+                                </button>
+                            </h3>
+                            <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Absolument ! Vous pouvez améliorer ou changer votre forfait à tout moment. Nous vous aiderons à choisir le forfait 
+                                    le plus adapté à vos besoins, objectifs et budget.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section py-5">
+        <div class="cta-background"></div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center" data-aos="zoom-in">
+                    <div class="cta-content">
+                        <h2 class="cta-title">Êtes-vous prêt à vous transformer ?</h2>
+                        <p class="cta-text">
+                            Commencez votre voyage aujourd'hui vers un corps plus fort et une vie plus saine. Rejoignez des centaines de clients qui ont atteint leurs objectifs avec nous
+                        </p>
+                        <a href="https://wa.me/+212663295556" class="btn btn-cta btn-lg">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>Commencez maintenant avec Coach KAMAL</span>
+                        </a>
+                        <p class="cta-note">
+                            <i class="fas fa-shield-alt"></i>
+                            Satisfaction garantie 100% ou remboursement intégral
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4" data-aos="fade-up">
+                    <div class="footer-about">
+                        <h3 class="footer-brand">
+                            Coach KAMAL JT
+                        </h3>
+                        <p class="footer-text">
+                            Coach sportif certifié avec plus de 8 ans d'expérience dans l'aide aux clients 
+                            pour atteindre leurs objectifs et transformer leur corps.
+                        </p>
+                        <div class="footer-social">
+                            <a href="https://wa.me/+212663295556" class="social-link" target="_blank">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                            <a href="https://www.instagram.com/kamaljt_coach/" class="social-link" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="footer-links">
+                        <h4 class="footer-title">Liens rapides</h4>
+                        <ul>
+                            <li><a href="#home">Accueil</a></li>
+                            <li><a href="#benefits">Avantages</a></li>
+                            <li><a href="#programs">Programmes</a></li>
+                            <li><a href="#about">À propos</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="footer-links">
+                        <h4 class="footer-title">Services</h4>
+                        <ul>
+                            <li><a href="#packages">Forfaits</a></li>
+                            <li><a href="#programs">Entraînement</a></li>
+                            <li><a href="#programs">Nutrition</a></li>
+                            <li><a href="#faq">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="footer-contact">
+                        <h4 class="footer-title">Contactez-nous</h4>
+                        <ul class="contact-info">
+                            <li>
+                                <i class="fas fa-phone"></i>
+                                <a href="tel:+212663295556" dir="ltr">06-63-29-55-56</a>
+                            </li>
+                            <li>
+                                <i class="fab fa-whatsapp"></i>
+                                <a href="https://wa.me/+201012552752">WhatsApp</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-clock"></i>
+                                <span>Disponible quotidiennement de 9h à 22h a BIIGRAMY GYM 2mars</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p class="copyright">
+                            © 2025 Coach KAMAL. Tous droits réservés.
+                        </p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <div class="footer-links-bottom">
+                            <a href="#">Politique de confidentialité</a>
+                            <span>|</span>
+                            <a href="#">Conditions générales</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Video Modal -->
+    <div class="modal fade" id="videoModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="" id="videoFrame" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn" class="scroll-top-btn">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js?v=2"></script>
+</body>
+</html>
